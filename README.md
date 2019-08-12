@@ -6,35 +6,40 @@ Node js
 ## Installation
 Create a directory, initialize git in it and clone this repository
 
-$ git clone <https://github.com/EmmellaBeatrice/Factorial-Calculator.git>
+    $ git clone <https://github.com/EmmellaBeatrice/Factorial-Calculator.git>
 
 Install node and npm
 
-$ sudo apt install nodejs
+    $ sudo apt install nodejs
 
-$ sudo apt install npm
+    $ sudo apt install npm
 
 Initialize node
 
-$ sudo npm init
+    $ sudo npm init
 
 Install lodash
-$ sudo npm i -g npm
-$ sudo npm i --save lodash
+
+    $ sudo npm i -g npm
+    
+    $ sudo npm i --save lodash
 
 Install chalk
-$ sudo npm install chalk
+
+    $ sudo npm install chalk
 
 Use Mocha as the test running framework, and Chai as the assertion library
+
 Install mocha and chai
 
-$ sudo npm install mocha --save
-$ sudo npm install chai --save
+    $ sudo npm install mocha --save
+
+    $ sudo npm install chai --save
 
 To run the file
 
-$ node index.js
+    $ node index.js
 
 To run tests
 
-$ npm run test
+    $ npm run test
